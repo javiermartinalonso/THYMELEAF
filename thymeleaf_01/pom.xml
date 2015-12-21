@@ -1,0 +1,71 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>es.thymeleaft</groupId>
+	<artifactId>thymeleaf_01</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>thymeleaf_01</name>
+	<description>thymeleaf_01</description>
+
+	<properties>
+		<project.build.sourceEncoding>ISO-8859-1</project.build.sourceEncoding>
+		<thymeleaf.version>2.1.4.RELEASE</thymeleaf.version>
+		<springframework.version>4.1.2.RELEASE</springframework.version>
+	</properties>
+
+	<dependencies>
+	
+		<!-- THYMELEAFT -->
+		<!-- XML/XHTML/HTML5 MOTOR DE PLANTILLAS PARA JAVA -->
+		<dependency>
+			<groupId>org.thymeleaf</groupId>
+			<artifactId>thymeleaf</artifactId>
+			<version>${thymeleaf.version}</version>
+		</dependency>
+		<!-- PAQUETE INTEGRACION THYMELEAF CON SPRING -->
+		<dependency>
+			<groupId>org.thymeleaf</groupId>
+			<artifactId>thymeleaf-spring4</artifactId>
+			<version>${thymeleaf.version}</version>
+		</dependency>
+
+
+		<!-- SPRING -->
+		<!-- SPRING MVC -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>${springframework.version}</version>
+			<scope>compile</scope>
+		</dependency>
+
+	
+	<!--  
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+			<version>2.5</version>
+			<scope>provided</scope>
+		</dependency>
+	-->
+	
+	<!--  
+	
+		
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-aspects</artifactId>
+			<version>${springframework.version}</version>
+			<scope>compile</scope>
+		</dependency>
+
+
+
+	-->
+
+	
+	</dependencies>
+
+
+
+</project>
